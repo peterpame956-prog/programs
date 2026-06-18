@@ -3,6 +3,6 @@
 # commit it by mistake, then use 'git reset' to undo the commit.
 
 def count_words(text):
+    print("DEBUG:", text)
     return len(text.split())
-
 print(count_words("git is a version control system"))   # 6
